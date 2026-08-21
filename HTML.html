@@ -1,0 +1,56 @@
+<!DOCTYPE HTML  >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+  
+
+    <link rel="stylesheet" href="Styles.css">
+    
+</head>
+
+
+<body>
+    <h1 class = "titulo">Teuflix</h1>
+    <div posicionarBarraDePesquisa class = "posicionarBarraDePesquisa">
+        <h4 class = "subtitulo">texto genérico dizendo o quão incrível é a Teuflix</h4>
+        <input type="search" placeholder="pesquise aqui" class = "barraDePesquisa" id="IDbarraDePesquisa">
+        <div class = "filtro">
+            <select name = "select" class = "filtroClassificacao" id = "filtroClassificacao">
+                <option value="0" >Livre</option>
+                <option value="10" >10</option>
+                <option value="12" >12</option>
+                <option value="14" >14</option>
+                <option value="16" >16</option>
+                <option value="18" selected>18</option>
+            </select>
+        </div>
+    </div>
+        
+    <div id="FilmesEncontrados" class = "filmesEmLancamento"></div>
+
+    <h2 class = "filmesEmLancamento">Filmes em Lançamento</h2>
+    <div class = "filmesEmLancamento" id = "filmesEmLancamento">
+        
+    </div>
+    
+    <h2 class = "destaques">Destaques</h2>
+    <div id = "destaques" class = "destaques">
+    </div>
+
+
+    
+<footer>
+    <p>Projeto fictício criado para fins educacionais de desenvolvimento web.</p>
+    <p>Os dados e imagens de filmes foram obtidos através do <a href="https://www.themoviedb.org/" target="_blank">The Movie Database (TMDB)</a>.</p>
+</footer>
+
+    <script src="JavaScript.js"></script>
+</body>
+
+
+
+
+</html>
